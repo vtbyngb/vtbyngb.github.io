@@ -1,0 +1,134 @@
+*{
+  font-family: sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+  display: block;
+}
+
+.navigation{
+  overflow: auto;
+  position:fixed;
+  top:8%;
+  left:8%;
+  border-right: 2px solid #000000;
+  height:100%;
+  
+  text-align:left;
+}
+
+.navigation div{
+  color:black;
+  padding: 10px 24px;
+}
+
+.navigation a{
+  text-decoration: none;
+  user-select: none;
+}
+
+.navigation #space{
+    position:relative;
+    top:60vh;
+}
+
+.navigation #home{
+  position:relative;
+  top:3vh;
+}
+
+.navigation #exp{
+  position:relative;
+  top:6vh;
+}
+
+.navigation #noti{
+  position:relative;
+  top:9vh;
+}
+
+.navigation #msg{
+  position:relative;
+  top:12vh;
+}
+
+.navigation #lists{
+  position:relative;
+  top:15vh;
+}
+
+.navigation #bookmarks{
+  position:relative;
+  top:18vh;
+}
+
+.navigation #commun{
+  position:relative;
+  top:21vh;
+}
+
+.navigation #premium{
+  position:relative;
+  top:24vh;
+}
+
+.navigation #profile{
+  position:relative;
+  top:27vh;
+}
+
+.navigation #more{
+  position:relative;
+  top:30vh;
+}
+
+.rightside{
+  overflow: auto;
+  position:fixed;
+  top:8%;
+  right:8%;
+  border-left: 2px solid #000000;
+  height:100%;
+}
+
+.rightside a{
+  text-decoration: none;
+  user-select: none;
+}
+
+.rightside div{
+  color:black;
+  padding: 10px 24px;
+}
+
+.rightside #post{
+  position:relative;
+  top:3vh;
+  
+  
+}
+
+
+#logo{
+  text-align: center;
+  padding-top:0;
+  background-color: black;
+  position:fixed;
+  top:0px;
+  left:0%;
+  border-radius:0;
+  width:100%;
+  z-index:1;
+}
+
+
+#logo a{
+  text-decoration: none;
+  user-select: none;
+  color: #ffffff;
+}
+
