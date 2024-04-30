@@ -1,137 +1,205 @@
 *{
     margin: 0;
     padding: 0;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
+    color:  black;
+    font-family: sans-serif;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+li{ 
+    padding: 5px 0;
+    font-size: 1.5;
+}
+
+p{
+    font-size: 1.25em;
 }
 
 a{
-    color: black;
+    color: white;
     text-decoration: underline;
     user-select: auto;
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: whitesmoke;
+    overflow-y: auto;
 }
 
-.header{
-    width: 100%;
+.contact{
+    padding: 20px 50px;
+    position: relative;
+    top: 50px;
+    border-top: 2px solid #184E69;
+}
+
+.name{
     text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.name h3{
+    color: white;
+}
+
+
+.pfp{
+    position: relative;
+    left: 75px;
+    top: 30px;
+    overflow: hidden;
+
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    border: 2px solid white;
+    border-radius: 360px;
+}
+
+img{
+    width: 160px;
+}
+
+.contact h1{
+    padding-bottom: 20px;
+}
+
+.technical h1{
+    padding-bottom: 20px;
+}
+
+.keyskills h1{
+    padding-bottom: 20px;
+}
+
+.keyskills{
+    border-top: 2px solid #184E69;
+    padding: 20px 50px;
+    position: relative;
+    top: 1px;
+}
+
+.othercontainer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 550px;
+    width: 750px;
+    height: 1100px;
+    flex-wrap: wrap;
+}
+
+#one{
+    position: relative;
+    border-bottom: 2px solid #013048;
+    border-top: 2px solid #013048;
+    padding: 10px 0;
+}
+
+#two{
+    top: -40px;
+    position: relative;
+    border-bottom: 2px solid #013048;
+    padding: 10px 0;
+}
+
+#tree{
+    top: -80px;
+    position: relative;
+    border-bottom: 2px solid #013048;
+    padding: 10px 0;
+}
+
+#for{
+    top: -120px;
+    position: relative;
+    border-bottom: 2px solid #013048;
+    padding: 10px 0;
+}
+
+#fiv{
+    top: -160px;
+    position: relative;
+    border-bottom: 2px solid #013048;
+    padding: 10px 0;
+}
+
+.experience{
+    position: relative;
+    top: -300px;
+    height: 400px;
+}
+
+.achievements{
+    position: relative;
+    height: 500px;
+
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.achievements p{
+    font-size: 1em;
+}
+
+.achievements h2{
+    font-size: 0.9em;
+}
+
+.achievements a{
+    color: black;
+}
+
+.experience h1{
+    padding-bottom: 20px;
     font-size: 2em;
 }
 
-.status{
-    width: 75%;
+.summary{
     position: relative;
-    left: 10%;
-    text-align: center;
-    font-size: 1.5em;
-    border: 3px solid rgba(59, 59,59, 0.5);
-    border-left: hidden;
-    border-right: hidden;
+    top: 30px;
+}
+
+.summary h1{
+    padding-bottom: 20px;
+    font-size: 2em;
+}
+
+.technical{
+    position: relative;
+    top: 35px;
+    border-top: 2px solid #184E69;
+    padding: 20px 50px;
 }
 
 .container{
-    width: 250px;
-    height: 100%;
+    width: 320px;
+    height: 1100px;
     position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
-    left: 13%;
-    
+    left: 0px;
+    background-color: #013048;
+    padding: 0 20px;
+
+    color: white;
 }
 
-.achievements{
-    border-right: 3px solid;
-    padding: 10px 0;
-    position: absolute;
-    border-bottom: 3px solid rgba(0, 0, 0, 0.3);
-    top: 100px;
+.container h1{
+    color: white;
 }
-
-.achievements ul li{
-    padding: 5px 0;
-    font-weight: bold;
-}
-
-.contact{
-    border-right: 3px solid;
-    padding: 20px 0;
-    border-bottom: 3px solid rgba(0, 0, 0, 0.3);
-    height: 60px;
-}
-
-.contact ul li{
-    font-weight: bold;
-}
-
-.contact h1{
-    text-align: left;
-}
-
-.technical{
-    padding: 25px 0;
-    position: absolute;
-    top: 340px;
-    border-bottom: 3px solid rgba(0, 0, 0, 0.3);
-    border-right: 3px solid;
-}
-
-.technical ul li{
-    font-weight: bold;
-}
-
-.keyskills{
-    border-right: 3px solid;
-    padding: 30px 0;
-    position: absolute;
-    top: 650px;
-}
-
-.keyskills ul li{
-    font-weight: bold;
-}
-
-.summary{
-    padding: 35px 0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 800px;
-    left: 500px;
-
-    border-bottom: 3px solid;
-}
-
-.summary p{
-    font-weight: bold;
-}
-
-.experience{
-    padding: 35px 0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 800px;
-    left: 500px;
-
-    border-bottom: 3px solid;
-}
-
-.experience #first{
-    padding: 15px 0;
-}
-
-.internship{
-    padding: 35px 0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 800px;
-    left: 500px;
-
-    border-bottom: 3px solid;
+.container ul li{
+    color: white;
 }
