@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: #F1F1F1;
+    font-family: "Abel", sans-serif;
+}
+
+.abel-regular {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.topbar{
+    background-color: white;
+    width: 100vw;
+    height: 3vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+
+    position: relative;
+    width: 45vw;
+    height: 35vh;
+    left: 0;
+    top: 0;
+}
+
+#title{
+    text-align: center;
+    position: relative;
+    top: 15vh;
+
+    font-size: 5vh;
+    text-transform: uppercase;
+    
+
+    letter-spacing: 2vw;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+
+    position: absolute;
+    width: 45vw;
+    height: 75vh;
+    left: 10vw;
+    top: 25vh;
+    
+    gap: 3vh;
+
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+
+    font-size: 2vh;
+    font-weight: 500;
+
+    gap: 3vh;
+}
+
+.content h4{
+    font-size: 3vh;
+}
+
+.other{
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+
+    position: absolute;
+    width: 35vw;
+    height: 75vh;
+    right: 0vw;
+    top: 25vh;
+    right: 10vw;
+}
+
+.other h3{
+    position: relative;
+    font-size: 3vh;
+    text-transform: uppercase;
+}
+
+.container h3{
+    position: relative;
+    font-size: 3vh;
+    text-transform: uppercase;
+}
+
+.container input{
+    padding: 0 1vw;
+    position: relative;
+    height: 5vh;
+}
+
+#msg{
+    height: 15vh;
+}
