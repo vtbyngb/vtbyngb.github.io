@@ -1,0 +1,307 @@
+.abel-regular {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    font-family: "Abel", sans-serif;
+    list-style: none;
+
+    text-decoration: none;
+    user-select: none;
+
+    transition: 0.5s;
+
+    color: #FEFFFF;
+}
+
+.Copy{
+    background: transparent;
+    font-size: 4vh;
+
+    color: azure;
+}
+
+body{
+    animation: gradientBg 8s ease-in infinite;
+    display: flex;
+    flex-direction: column;
+
+    /* 120deg Rotation was the default Value */
+    background-image: linear-gradient(120deg,#212327, #060911);
+    background-size: 100% 1000%;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.FirstPage{
+    display: grid;
+    width: 100vw;
+    position: absolute;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    font-size: 6vw;
+
+    z-index: 2;
+}
+
+.logo input{
+    padding-left: 45vw;
+    align-items: center;
+    width: 7.65vh;
+
+    z-index: 3;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FEFFFF;
+    height: 8vh;
+    z-index: 2;
+}
+
+.title, .subtitle{
+    font-size: 20vw;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin: auto;
+    top: 20vh;
+    position: relative;
+    max-width: fit-content;
+}
+
+.subtitle h2{
+    font-size: 5vh;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 5vw;
+}
+
+.year{
+    writing-mode: vertical-rl;
+}
+
+.emotion{
+    writing-mode: vertical-lr;
+}
+
+.head-footer{
+    position: relative;
+    top: 47vh;
+    margin-right: auto;
+    margin-left: auto;
+
+    font-size: 2vh;
+}
+
+.menu-buttons{
+    position: absolute;
+    display: flex;
+    color: #060911;
+
+    gap: 5vw;
+
+    left: 3vw;
+    top: 0vh; /* when doing animation set top to 10vh as the end point / end goal of the animation to make it look like it's sliding down */
+    margin: auto;
+    visibility: hidden;
+}
+
+#Menu-Buttons li{
+    font-size: 4vw;
+    text-transform: uppercase;
+
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    padding: 2vw;
+    border-color: #FEFFFF;
+    border: 0.01vw;
+    border-bottom-style: double;
+
+    z-index: 1;
+}
+
+#Introduction{
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-family: sans-serif;
+
+    margin-right: auto;
+    padding-left: 8vw;
+
+    top: 15vh;
+    position: relative;
+}
+
+.SubIntroduction{
+    font-family: sans-serif;
+    text-align: center;
+    height: fit-content;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1px;
+    border: 5px double rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+
+    font-size: 4.75vw;
+    width: 75vw;
+
+    margin: auto;
+
+    top: 15vh;
+    position: relative;
+}
+#SubIntroTitle1{
+    padding-bottom: 2vh;
+}
+
+#SubIntroTitle2{
+    visibility: hidden;
+}
+
+.Glass_Casing{
+    font-family: sans-serif;
+    text-align: center;
+
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 1px;
+    border: 5px double rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1vh;
+
+    font-size: 4.75vw;
+    width: 75vw;
+
+    margin: auto;
+
+    top: 15vh;
+    position: relative;
+}
+
+.Contact_Input{
+    font-size: 2vh;
+    width: 75vw;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#Msg{
+    height: 10vh;
+    resize: vertical;
+}
+
+#Contact_Button{
+    font-family: sans-serif;
+    text-align: center;
+
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 1px;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1vh;
+
+    font-size: 4.75vw;
+    width: 75vw;
+
+    margin: auto;
+
+    top: 15vh;
+    position: relative;
+}
+
+#Form{
+    display: flex;
+    flex-direction: column;
+}
+
+.ProjectContainer{
+    font-family: sans-serif;
+    text-align: center;
+
+    display: flex;
+
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 1px;
+    border: 5px double rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1vh;
+
+    font-size: 4.75vw;
+    width: fit-content;
+}
+
+.Display_Row{
+    position: relative;
+    top: 15vh;
+    gap: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ProjectContent{
+    font-size: 4vh;
+    padding: 3vw;
+    width: fit-content;
+    height: fit-content;
+}
+
+.ProjectTitle{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 2vh;
+    text-transform: uppercase;
+    width: fit-content;
+}
+
+.SubIntroFoot{
+    position: relative;
+    top: 15vh;
+    margin: auto;
+    font-size: 3vw;
+    margin-bottom: 5vh;
+}
+
+.menu-buttons a{
+    top: 10vh;
+}
+
+@keyframes gradientBg{
+    0% { background-position: 0% 0%; }
+    50% { background-position: 0% 75%; }
+    100% { background-position: 0% 0%;}
+}
+
+/*
+.navbar:active #Menu-Buttons{
+    content: '';
+    position: absolute;
+    display: flex;
+    color: #060911;
+
+    gap: 5vw;
+
+    right: 15vw;
+    top: 10vh; /* when doing animation set top to 10vh as the end point / end goal of the animation to make it look like it's sliding down 
+
+    visibility: visible;
+    transition: 0.5s;
+} */

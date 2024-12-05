@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" media="screen and (min-width: 1001px)" href="BigScreen.CSS">   
+    <link rel="stylesheet" media="screen and (max-width: 1000.99px)" href="contactsmall.css">  
+</head>
+<body class="body"> 
+    <section class="FirstPage">
+        <div class="navbar" id="navbar">
+        
+
+            <div class="logo"><input type="image" id="Logo-Button" src="bxs-pyramid.svg" alt="Logo, Click to go to home Page, and if you're on mobile then click to bring down navigation bar."> </div>  
+    
+            <div class="menu">
+                <ul class="menu-buttons"  id="Menu-Buttons">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Services.html">Service</a></li>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <form target="_blank" action="https://formsubmit.co/0313fe2b5921a3737011555f5d6eea73" method="POST" id="Form">
+            <!--Honey Pot-->
+            <input type="text" name="_honey" style="display: none;">
+
+            <!-- Email Input-->    
+            <div class="Glass_Casing" id="Email_Glass">
+                <input class="Contact_Input" id="email" type="email" name="Email" placeholder="Email Here" >
+            </div>
+            <div class="SubIntroFoot"><b>Email Me</b></div>
+
+             <!-- Phone Input-->   
+            <div class="Glass_Casing" id="Phone_Glass">
+                <input class="Contact_Input" id="Phone" type="tel" name="Phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"  >
+            </div>
+            <div class="SubIntroFoot"><b>Call Me</b></div>
+        
+            <!-- Web Site-->
+            <div class="Glass_Casing" id="Web_Glass">
+                <input class="Contact_Input" id="Web" type="url" name="WebSite" placeholder="www.Google.Com" >
+            </div>
+            <div class="SubIntroFoot"><b>If You Have A Website</b></div>
+
+            <!-- Message Input-->
+            <div class="Glass_Casing" id="Msg_Glass">
+                <textarea class="Contact_Input" id="Msg" name="Comment" style="transition: 0s;"> </textarea>
+            </div>
+            <div class="SubIntroFoot"><b>Message</b></div>
+
+            <!-- Button Input-->
+            <button id="Contact_Button" type="submit">Submit</button>
+        </form>
+
+    </section>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>

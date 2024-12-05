@@ -1,0 +1,290 @@
+.abel-regular {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    font-family: "Abel", sans-serif;
+    list-style: none;
+
+    text-decoration: none;
+    user-select: none;
+
+    color: #FEFFFF;
+
+    transition: 0.5s;
+}
+
+.Copy{
+    background: transparent;
+    font-size: 2vw;
+}
+
+body{
+    animation: gradientBg 8s ease-in infinite;
+    display: flex;
+    flex-direction: column;
+
+    /* 120deg Rotation was the default Value */
+    background-image: linear-gradient(120deg,#212327, #060911);
+    background-size: 100% 450%;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.FirstPage{
+    display: grid;
+    width: 100vw;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo input{
+    padding-left: 50px;
+    width: 6vh;
+    position: relative;
+}
+
+.logo h1{
+    font-size: 5vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+    background-color: #FEFFFF;
+    padding-top: 10px;
+}
+
+a{
+    color: #060911;
+}
+
+.menu-buttons{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+    font-weight: 700;
+
+    right: 5vw;
+    gap: 1vw;
+}
+
+#Menu-Buttons li{
+   text-transform: uppercase;
+   font-size:  2.5vh;
+   
+   width: 9vh;
+   display: flex;
+   justify-content: center;
+   padding: 1vh;
+}
+
+.title h1, .subtitle h2{
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.title h1{
+    font-size: 20vh;
+}
+
+.subtitle{
+    top: 20vh;
+    position: relative;
+    font-weight: 100;
+    margin: auto;
+
+    z-index: 1;
+    
+}
+
+.SubIntroduction{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2vw;
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1px;
+    border: 5px double rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2vw 0px;
+
+    font-size: 3vh;
+    width: 70vw;
+
+    margin: auto;
+    text-align: center;
+
+    top: 13vh;
+    position: relative;
+}
+
+#AboutMeContent{
+    display: flex;
+    justify-content: center;
+    width: 75vw;
+}
+
+.SubIntroTitle{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 2vh;
+    text-transform: uppercase;
+}
+
+.Glass_Casing{
+    font-family: sans-serif;
+    text-align: center;
+
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 1px;
+    border: 5px double rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1vh;
+
+    font-size: 4.75vw;
+    width: 35vw;
+
+    margin: auto;
+
+    top: 10vh;
+    position: relative;
+}
+
+.Contact_Input{
+    font-size: 2vh;
+    width: 35vw;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#Msg{
+    height: 10vh;
+    resize: vertical;
+}
+
+#Contact_Button{
+    font-family: sans-serif;
+    text-align: center;
+
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 1px;
+    border: 1px double rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1vh;
+
+    font-size: 2vw;
+    width: 15vw;
+
+    margin: auto;
+
+    top: 10vh;
+    position: relative;
+}
+
+.ProjectContainer{
+    font-family: sans-serif;
+    text-align: center;
+
+    display: flex;
+
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 1px;
+    border: 5px double rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1vh;
+    
+    width: 25vw;
+}
+
+.Display_Row{
+    position: relative;
+    top: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ProjectContent{
+    font-size: 2vw;
+    padding: 3vw;
+    width: fit-content;
+    height: fit-content;
+}
+
+.ProjectTitle{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 2vh;
+    text-transform: uppercase;
+    width: fit-content;
+}
+
+.SubIntroFoot{
+    position: relative;
+    top: 10vh;
+    margin: auto;
+    font-size: 2vh;
+    margin-bottom: 5vh;
+}
+
+#Form{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    z-index: 2;
+    position: relative;
+
+    
+    max-width: fit-content;
+    top: 20vh;
+    margin:auto;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 3vh;
+}
+
+.year{
+    writing-mode: vertical-rl;
+}
+
+.emotion{
+    writing-mode: vertical-lr;
+}
+
+.head-footer{
+    position: relative;
+    top: 50vh;
+
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes gradientBg{
+    0% { background-position: 0% 0%; }
+    50% { background-position: 0% 95%; }
+    100% { background-position: 0% 0%;}
+}
