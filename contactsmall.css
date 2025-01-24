@@ -24,7 +24,8 @@
     background: transparent;
     font-size: 4vh;
 
-    color: azure;
+    color: antiquewhite;
+    animation: links 8s ease-in infinite;
 }
 
 body{
@@ -284,19 +285,22 @@ body{
     top: 10vh;
 }
 
-#Stand_Out{
+.Stand_Out{
+    padding: 10px;
     color: antiquewhite;
-    background-color: rgba(255, 255, 255, 0.03);
-    border-radius: 1px;
-    border: 5px double rgba(255, 255, 255, 0.9);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 1vh;
+    animation: links 8s ease-in infinite;
 }
 
 @keyframes gradientBg{
     0% { background-position: 0% 0%; }
-    50% { background-position: 0% 75%; }
+    50% { background-position: 0% 95%; }
     100% { background-position: 0% 0%;}
+}
+
+@keyframes links{
+    0% {color: antiquewhite;}
+    50% {color: rgb(6, 109, 212);}
+    100% {color: antiquewhite;}
 }
 
 /*
